@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<title>Passport Authentication</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="/style/css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Great+Vibes|Reenie+Beanie&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+<!-- Start of the Container. -->
+    <div class="container">
+
+<!-- Start of the Video Background. -->
+<video playsinline muted autoplay loop id="video">
+    <source src="../videos/Login_Signup Page.m4v">
+    </video>
+<!-- End of the Video Background. -->
+
+<!-- Start of the Silhouette Image/Logo. -->
+<div class="row" id="silhouette" style="text-align: center; position: relative; bottom: -550px; left: 500px">
+<img style="height: 300px; width: 300px" src="../images/dress_silhouette.png">
+</div>
+<!-- End of the Silhouette Image/Logo. -->
+
+<!-- Start of the Welcome to Your Closet Button. -->
+<div id="myBtnRow" class="row" style="text-align: center; position: relative; bottom: 300px;">
+<a id="myBtn" class="button "><i class="">Welcome to Your Closet</i></a>
+</div>
+<!-- End of the Welcome to Your Closet Button. -->
+
+<!-- Start of the Signup Form. -->
+<div class="row">
+<div class="col-md-6 col-md-offset-3" id="loginRow" style="width:800px; position: relative; bottom: 300px;">
+<h2 style="text-align: center">Sign Up Form</h2>
+<form class="signup">
+<div class="form-group">
+<label for="exampleInputEmail1">Email address</label>
+<input type="email" class="form-control" id="email-input" placeholder="Email">
+</div>
+<div class="form-group">
+<label for="exampleInputPassword1">Password</label>
+<input type="password" class="form-control" id="password-input" placeholder="Password">
+</div>
+<div style="display: none" id="alert" class="alert alert-danger" role="alert">
+<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+<span class="sr-only">Error:</span> <span class="msg"></span>
+</div>
+<button type="submit" class="btn btn-default">Sign Up</button>
+</form>
+<br />
+<p>Or log in <a href="/login">here</a></p>
+</div>
+</div>
+<!-- End of the Signup Form. -->
+
+<!-- End of the Container. -->
+</div>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="/javascript/newuser.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"> </script>
+</html>
+

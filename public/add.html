@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Add</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/style/css/reset.css">
+<link rel="stylesheet" href="/style/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Great+Vibes|Reenie+Beanie&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Start of the Navbar outside the container. -->
+<nav class="navbar navbar-default white">
+<div class="container-fluid">
+<div class="navbar-header">
+<a class="navbar-brand black-text" href="/logout">Logout</a>
+<a class="navbar-brand black-text" href="/add.html">Add</a>
+<a class="navbar-brand black-text" href="/donate.html">Donate</a>
+<a class="navbar-brand black-text" href="/home.html">Home</a>
+</div>
+</div>
+</nav>
+<!-- End of the Navbar outside the container. -->
+    
+<!-- Start of the Container. -->
+<div class="container">
+
+<!-- Start of the Video Background. -->
+<video playsinline muted autoplay loop id="video">
+<source src="/videos/Project2.m4v" />
+</video>
+<!-- End of the Video Background. -->
+
+
+
+<!-- Start of the Welcome to Your Closet Button. -->
+<div id="myBtnRow" class="row" style="text-align: center; font-family:'Tangerine', cursive;">
+<a id="myBtn" class="button "><i class="">Welcome to Your Closet</i></a>
+</div>
+<!-- End of the Welcome to Your Closet Button. -->
+
+<!-- Start of the Add Form. -->
+<div class="row">
+<div class="col-md-6 col-md-offset-3" id="addClothing">
+<h2 style="color: ivory; font-family:'Tangerine', cursive;">Add To Your Closet <span class="member-name"></span></h2>
+</div> 
+</div> 
+
+<!-- Start of the Carousel for the User's Uploads. -->
+<div class="row" style="position: relative; bottom: 50px; right: 70px"> 
+<div class="carousel" id="picsContainer3">
+</div> 
+</div>
+<!-- End of the Carousel for the User's Uploads. -->
+
+<!-- Start of the Choose File Upload Section. -->
+<div class="row" id="imageUpload" style="text-align: center; position: relative; bottom: 150px;" >
+<form id="fileUpload" ref="uploadForm" id="uploadForm" action="/upload" method="post" encType="multipart/form-data">
+<input type="file" name="sampleFile"/>
+<input type="submit" value="Upload" id="uploadbtn" class="pink lighten-4 btn btn-primrary"/>
+
+<!-- End of the Choose File Upload Section. -->
+
+<!-- Start of the Drop Down Menu Options for Types of Clothing being uploaded. -->
+    <div class="input-field">
+      <select class="icons" name="dropdown">
+      <option value="" selected >Choose your option</option>
+      <option value="Tops" data-icon="/images/tops_0.png" class="left">Tops</option>
+      <option value="Shoes" data-icon="/images/shoes_0.png" class="left">Shoes</option>
+      <option value="Bottoms" data-icon="/images/bottoms_0.jpg" class="left">Bottoms</option>
+      <option value="Accessories" data-icon="/images/bags_0.jpeg" class="left">Accessories</option>
+      </select>
+      <label>Images in select</label>
+    </div>
+    </div>
+  </form>
+
+<!-- End of the Drop Down Menu Options for Types of Clothing being uploaded. -->
+    
+
+
+<!-- Start of the Picture Add Container. -->
+
+  <!-- End of the Picture Add Container. -->
+
+
+<!-- Start of the Silhouette Image/Logo. -->
+<div class="row">
+    <div id="silhouette"
+    style="text-align: center;">
+    <img style="height: 500px; width: 500px; position: relative; left: 400px;" src="../images/dress_silhouette.png" />
+    </div>
+    </div>
+<!-- End of the Silhouette Image/Logo. -->
+
+<!-- End of the Container. -->
+</div>
+
+
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript" src="/javascript/add.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</html>

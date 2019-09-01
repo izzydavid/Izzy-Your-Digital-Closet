@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+  }
+
+#video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    height: 100vh;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50));
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50));
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#donateBtn > h2 { 
+    background: transparent;
+    border: transparent; 
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    color: ivory;
+}
+
+#wearBtn > h2 { 
+    background: transparent;
+    border: transparent; 
+    font-family: 'Tangerine', cursive;
+    color: ivory;
+}
+
+#myBtn  {
+    background: transparent;
+    border: transparent; 
+    font-family: 'Tangerine', cursive;
+    font-size: 100px;
+    color: ivory;
+}
+
+.navbar-brand { 
+    margin: 10px; 
+}
+
+.navbar, .navbar-default { 
+    border-radius: 10px; 
+    box-shadow: 2px; 
+    overflow: hidden;
+}
+
+#picsContainer > .card { 
+    margin: 10px;
+    width: 285px; 
+    height: 330px;
+    float: left;
+    box-shadow: 2px; 
+}
+
+#picsDonate > .card{ 
+    margin: 10px;
+    width: 280px; 
+    height: 380px;
+    float: left;
+    box-shadow: 2px; 
+    text-align: center;
+}
+
+
+#picksWear > .card{ 
+    margin: 30px;
+    width: 200px; 
+    float: left;
+    box-shadow: 2px; 
+    text-align: center;
+}
+
+#picsContainer2 > .card-image, img {
+float: left;
+width: 175px; 
+height: 250px;
+box-shadow: 2px; 
+border-radius: 30px; 
+}
+    
+#picsContainer2 > .carousel-item, .carousel {
+margin: 10px;
+width: 300px; 
+height: 400px;
+box-shadow: 2px; 
+border-radius: 30px; 
+float: left;
+}
+
+#picsContainer3 > .carousel-item, .carousel {
+    margin: 10px;
+    width: 300px; 
+    height: 400px;
+    box-shadow: 2px; 
+    border-radius: 30px; 
+    float: left;
+    }
+
+#picsContainer3 { 
+    position: relative;
+    left: 80px; 
+}
+
+#picsContainer4 > .card{ 
+border-radius: 30px; 
+box-shadow: 2px; 
+width: 300px; 
+height: 300px;
+}
+
+#picsContainer4 > .carousel-item, .carousel{ 
+margin: 10px;
+width: 350px; 
+height: 250px;
+float: left;
+box-shadow: 2px; 
+border-radius: 30px; 
+}
+
+#addClothing { 
+text-align: center;
+font-family:'Tangerine', cursive;
+}
+
+#addClothing > form, input { 
+margin:10px;
+text-align: center"
+}
+
+#addClothing > h2 { 
+margin:10px;
+}
+    
+#favoriteItem:hover { 
+    color: pink; 
+}
+
+.card-image { 
+height: 240px; 
+width: 250px;
+border-radius: 30px;
+}
+
+.card-panel, .card { 
+height: 350px; 
+width: 250px; 
+float: left;
+border-radius: 30px;
+}
+
+.btn {
+border-radius: 5px;
+margin: 2px; 
+}
+
+input { 
+    color: ivory;
+}
+#signupRow, #loginRow { 
+    color: black; 
+    position: relative;
+    bottom: 60px; 
+    background:white; 
+    left: -90px;
+    }
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+
+
+@media screen and (min-width: 600px) {
+    div.example {
+        font-size: 80px;
+    }
+
+    @media (min-aspect-ratio: 16/9) {
+        #video {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+
+    body {
+        background: url('../images/background.jpg');
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.example {
+        font-size: 30px;
+    }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {   
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {   
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    }
+
+}
