@@ -32,25 +32,29 @@ o	Natalia & Kisanet: Uploading images to the HTML from the SQL database
 o	Mark: Login and create account functionality.
 o	Kisanet & Natalia: Front-end: Login/Signup and the home/dashboard: 
 
-
+![alt text](https://github.com/izzydavid/Your-Digital-Closet/blob/master/public/images/API_Chart.png?raw=true)
 
 
 Powerpoint for Group Project 1 Images: 
 
-![alt text](https://raw.githubusercontent.com/izzydavid/Krave/master/assets/images/Slide1.png)
+![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide1.png)
 
-![alt text](https://raw.githubusercontent.com/izzydavid/Krave/master/assets/images/Slide2.png)
+![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide2.png)
 
-![alt text](https://raw.githubusercontent.com/izzydavid/Krave/master/assets/images/Slide3.png)
+![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide3.png)
 
-![alt text](https://raw.githubusercontent.com/izzydavid/Krave/master/assets/images/Slide4.png)
+![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide4.png)
 
-![alt text](https://raw.githubusercontent.com/izzydavid/Krave/master/assets/images/Slide5.png)
+![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide5.png)
 
-![alt text](https://raw.githubusercontent.com/izzydavid/Krave/master/assets/images/Slide6.png)
+![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide6.png)
 ![alt text](https://raw.githubusercontent.com/izzydavid/Krave/master/assets/images/apiChart.png)
 
-![alt text](https://raw.githubusercontent.com/izzydavid/Krave/master/assets/images/Slide7.png)
+![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide7.png)
+
+![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide8.png)
+
+![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide9.png)
 
 ## Overview
 Welcome to Project 2! This is yet another important milestone in your full-stack journey: designing and building your first full-stack web application. You and your team will design and build an app using the MVC paradigm and your own server-side API. You will also continue to add to your professional repertoire with testing, continuous integration and linting tools.
