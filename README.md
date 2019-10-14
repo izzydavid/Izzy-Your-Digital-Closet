@@ -1,38 +1,56 @@
 # Unit 16: Project 2
+
 Group Project 2
 
 We have created an app that organizes you’re clothing. Whether you’re at home or on the road, you will be able to scroll through your closet with ease. Maybe there’s something in the back of your closet you forgot about? Or something in the bottom of the drawer you never see? No need to worry, we’ll take care of it. Whatever the occasion, you will be able to easily pick out your outfit.
 
-•	Design Clothing Choices/Options: 
-o	Tops
-o	Bottoms
-o	Accessory
-o	Shoes
-o	CSS Materialize carousel 
-	User select all their clothing choices and a button once their complete with their style. 
-	After the user completes and submit their outfit it will be organize by the following: Weekday, Weekend, 
-	So and update of when the last you wore it condition. 
-	Check on each of the tops, bottoms accessory, clothing, change the CSS opacity to .3. 
-	After they will be the day of the or weekday to weekend wear. 
-o	The purpose of the app is to organize your closet. 
-•	Technology to use: 
-o	Node/Express
-o	MySQL 
-o	Sequelize
-o	HTML
-o	Javascript
-o	Jquery
-o	CSS
-o	Materialize 
-o	Moment JS
-o	API for uploading pictures. 
-o	Heroku
-•	Tasks by person: 
-o	Natalia & Kisanet: Uploading images to the HTML from the SQL database
-o	Mark: Login and create account functionality.
-o	Kisanet & Natalia: Front-end: Login/Signup and the home/dashboard: 
+•Design Clothing Choices/Options:
 
-Powerpoint for Group Project 1 Images: 
+o Tops
+
+o Bottoms
+
+o Accessory
+
+o Shoes
+
+o CSS Materialize carousel
+
+ User select all their clothing choices and a button once their complete with their style.
+
+ After the user completes and submit their outfit it will be organize by the following: Weekday, Weekend,
+
+ So and update of when the last you wore it condition.
+
+ Check on each of the tops, bottoms accessory, clothing, change the CSS opacity to .3.
+
+ After they will be the day of the or weekday to weekend wear.
+
+o The purpose of the app is to organize your closet.
+
+[First-API-Chart](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/My%20First%20Document.png)
+
+• Technology to use:
+
+o Node/Express
+o MySQL
+o Sequelize
+o HTML
+o Javascript
+o Jquery
+o CSS
+o Materialize
+o Moment JS
+o API for uploading pictures.
+o Heroku
+
+• Tasks by person:
+
+o Natalia & Kisanet: Uploading images to the HTML from the SQL database
+o Mark: Login and create account functionality.
+o Kisanet & Natalia: Front-end: Login/Signup and the home/dashboard:
+
+Powerpoint for Group Project 1 Images:
 
 ![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide1.png)
 
