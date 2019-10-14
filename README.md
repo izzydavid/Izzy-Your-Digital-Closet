@@ -32,9 +32,6 @@ o	Natalia & Kisanet: Uploading images to the HTML from the SQL database
 o	Mark: Login and create account functionality.
 o	Kisanet & Natalia: Front-end: Login/Signup and the home/dashboard: 
 
-![alt text](https://github.com/izzydavid/Your-Digital-Closet/blob/master/public/images/API_Chart.png?raw=true)
-
-
 Powerpoint for Group Project 1 Images: 
 
 ![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide1.png)
@@ -47,8 +44,9 @@ Powerpoint for Group Project 1 Images:
 
 ![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide5.png)
 
+![alt text](https://github.com/izzydavid/Your-Digital-Closet/blob/master/public/images/API_Chart.png?raw=true)
+
 ![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide6.png)
-![alt text](https://raw.githubusercontent.com/izzydavid/Krave/master/assets/images/apiChart.png)
 
 ![alt text](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/Slide7.png)
 
