@@ -1,7 +1,7 @@
 {
-  "name": "group-project-2",
+  "name": "Your-Digital-Closet",
   "version": "1.0.0",
-  "description": "project-2",
+  "description": "Digital Closet Application wtih MVC",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mark0552/Group-Project-2.git"
+    "url": "git+https://github.com/izzydavid/Your-Digital-Closet.git"
   },
   "author": "Mark",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mark0552/Group-Project-2/issues"
+    "url": "https://github.com/izzydavid/Your-Digital-Closet/issues"
   },
-  "homepage": "https://github.com/Mark0552/Group-Project-2#readme",
+  "homepage": "https://github.com/izzydavid/Your-Digital-Closet#readme",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "bcryptjs": "^2.4.3",
