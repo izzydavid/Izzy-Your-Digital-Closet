@@ -77,7 +77,7 @@ module.exports = function(app) {
       .then(result => {
         res.json(result);
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(err);
       });
   });
@@ -121,7 +121,7 @@ module.exports = function(app) {
               // res.send('File uploaded!');
               res.redirect("/add");
             })
-            .catch(err => {
+            .catch((err) => {
               console.log(err);
             });
         }
@@ -163,7 +163,7 @@ module.exports = function(app) {
         res.json(result);
         console.log(result);
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(err);
       });
   });
@@ -187,7 +187,7 @@ module.exports = function(app) {
           res.json(result);
           console.log(result);
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
         });
     });

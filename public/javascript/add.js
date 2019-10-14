@@ -16,7 +16,7 @@ $(document).ready(function() {
         console.log(result);
         postHomePics(result);
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(err);
       });
   }
@@ -31,7 +31,7 @@ $(document).ready(function() {
         console.log(result);
         postDonatePics(result);
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(err);
       });
   }
@@ -46,7 +46,7 @@ $(document).ready(function() {
         console.log(result);
         postWearPics(result);
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(err);
       });
   }
