@@ -1,7 +1,6 @@
 // Requiring our models and passport as we've configured it
 var db = require("../models");
 var passport = require("../config/passport");
-
 var userEmail = "";
 //
 module.exports = function(app) {
@@ -30,10 +29,8 @@ module.exports = function(app) {
       .catch(function(err) {
         console.log(err);
         res.json(err);
-        // res.status(422).json(err.errors[0].message);
       });
   });
-  //
   // Route for logging user out
   app.get("/logout", function(req, res) {
     req.logout();
