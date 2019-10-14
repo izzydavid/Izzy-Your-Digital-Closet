@@ -181,7 +181,11 @@ $(document).ready(function () {
 
 
 $("#picsContainer2").hide(100);
+
 $("#myBtnRow, #silhouette").hide(100)
+
+
+
 $('#picsContainer2').delay(5000).animate({
   bottom: '-30px'}, "slow");
 $('.materialboxed').materialbox();

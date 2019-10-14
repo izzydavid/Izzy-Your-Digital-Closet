@@ -38,5 +38,8 @@ app.get("/donate", function (req, res) {
   res.sendFile(path.join(__dirname, "../public/donate.html"));
 });
   
+app.get("/wear", function (req, res) {
+  res.sendFile(path.join(__dirname, "../public/wear.html"));
+});  
   
 };
