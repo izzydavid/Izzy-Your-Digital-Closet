@@ -28,7 +28,7 @@ o CSS Materialize carousel
 
 o The purpose of the app is to organize your closet.
 
-[First-API-Chart](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/My%20First%20Document.png)
+![First-API-Chart](https://raw.githubusercontent.com/izzydavid/Your-Digital-Closet/master/public/images/My%20First%20Document.png)
 
 • Technology to use:
 
