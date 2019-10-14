@@ -33,21 +33,33 @@ o The purpose of the app is to organize your closet.
 • Technology to use:
 
 o Node/Express
+
 o MySQL
+
 o Sequelize
+
 o HTML
+
 o Javascript
+
 o Jquery
+
 o CSS
+
 o Materialize
+
 o Moment JS
+
 o API for uploading pictures.
+
 o Heroku
 
 • Tasks by person:
 
 o Natalia & Kisanet: Uploading images to the HTML from the SQL database
+
 o Mark: Login and create account functionality.
+
 o Kisanet & Natalia: Front-end: Login/Signup and the home/dashboard:
 
 Powerpoint for Group Project 1 Images:
