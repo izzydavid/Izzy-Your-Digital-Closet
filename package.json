@@ -28,7 +28,7 @@
     "express-session": "^1.17.0",
     "glob-parent": "^5.1.2",
     "middleware": "^1.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mysql": "^2.18.1",
     "mysql2": "^1.7.0",
     "nodemon": "^2.0.4",
