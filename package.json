@@ -32,11 +32,11 @@
     "mysql": "^2.18.1",
     "mysql2": "^1.7.0",
     "nodemon": "^2.0.4",
-    "passport": "^0.4.1",
+    "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
     "sequelize": "^6.11.0",
-    "uuid": "^3.4.0",
+    "uuid": "^8.3.2",
     "validator": "^13.7.0"
   }
 }
